@@ -1,0 +1,51 @@
+{
+    "name": "123lens/laravel-copernica-rest-api-client",
+    "description": "Copernica Rest Api Client for Laravel",
+    "keywords": ["laravel", "copernica", "api", "php"],
+    "type": "package",
+    "license": "MIT",
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "authors": [
+        {
+            "name": "Sebastiaan",
+            "email": "sebastiaan@123lens.nl"
+        }
+    ],
+    "homepage": "https://github.com/123lens/laravel-copernica-rest-api-client",
+    "require": {
+        "php": "^8.0",
+        "guzzlehttp/guzzle": "^7.4",
+        "avido/smtpeter-php-api": "^0.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^4.0 || ^5.0 || ^6.0",
+        "phpunit/phpunit": "^9.5.11"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Avido\\LaravelCopernicaApi\\ServiceProvider"
+            ],
+            "aliases": {
+                "Smtpeter": "Copernica"
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "Avido\\LaravelCopernicaApi\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Avido\\LaravelCopernicaApi\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit"
+    }
+}
