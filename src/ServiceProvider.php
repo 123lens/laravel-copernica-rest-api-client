@@ -1,5 +1,5 @@
 <?php
-namespace Avido\LaravelCopernicaApi;
+namespace Budgetlens\LaravelCopernicaApi;
 
 class ServiceProvider extends \Illuminate\Support\ServiceProvider
 {

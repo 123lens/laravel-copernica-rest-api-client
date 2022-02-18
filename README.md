@@ -22,7 +22,7 @@ COPERNICA_ACCESS_TOKEN=YOUR-API-TOKEN
 \
 You can optionally publish the config file with:
 ```php 
-php artisan vendor:publish --provider="123lens\LaravelCopernicaRestApi\ServiceProvider" --tag="config"`
+php artisan vendor:publish --provider="Budgetlens\LaravelCopernicaApi\ServiceProvider" --tag="config"`
 ```
 
 

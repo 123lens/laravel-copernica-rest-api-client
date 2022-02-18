@@ -1,7 +1,7 @@
 <?php
-namespace Avido\LaravelCopernicaApi\Tests;
+namespace Budgetlens\LaravelCopernicaApi\Tests;
 
-use Avido\LaravelCopernicaApi\ServiceProvider;
+use Budgetlens\LaravelCopernicaApi\ServiceProvider;
 use Orchestra\Testbench\TestCase as Orchestra;
 
 abstract class TestCase extends Orchestra

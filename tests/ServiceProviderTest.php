@@ -1,8 +1,8 @@
 <?php
-namespace Avido\LaravelCopernicaApi\Tests;
+namespace Budgetlens\LaravelCopernicaApi\Tests;
 
-use Avido\LaravelCopernicaApi\Facades\Copernica;
-use Avido\LaravelCopernicaApi\CopernicaApi;
+use Budgetlens\LaravelCopernicaApi\Facades\Copernica;
+use Budgetlens\LaravelCopernicaApi\CopernicaApi;
 
 class ServiceProviderTest extends TestCase
 {

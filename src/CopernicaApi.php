@@ -1,5 +1,5 @@
 <?php
-namespace Avido\LaravelCopernicaApi;
+namespace Budgetlens\LaravelCopernicaApi;
 
 use GuzzleHttp\ClientInterface;
 

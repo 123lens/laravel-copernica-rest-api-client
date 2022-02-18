@@ -1,7 +1,7 @@
 <?php
-namespace Avido\LaravelCopernicaApi\Facades;
+namespace Budgetlens\LaravelCopernicaApi\Facades;
 
-use Avido\LaravelCopernicaApi\CopernicaApi;
+use Budgetlens\LaravelCopernicaApi\CopernicaApi;
 use Illuminate\Support\Facades\Facade;
 
 class Copernica extends Facade
