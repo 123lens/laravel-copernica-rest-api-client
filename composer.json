@@ -1,5 +1,5 @@
 {
-    "name": "123lens/laravel-copernica-rest-api-client",
+    "name": "budgetlens/laravel-copernica-rest-api-client",
     "description": "Copernica Rest Api Client for Laravel",
     "keywords": ["laravel", "copernica", "api", "php"],
     "type": "package",
